@@ -5,7 +5,7 @@ This project uses a **Genetic Algorithm (GA)** to discover the optimal strategy 
 ## The Challenge
 The 100 prisoners riddle is a classic problem in probability theory. With a random strategy, the survival probability is practically **0%**. However, using the "Cycle-Following" strategy, the probability jumps to over **31%**.
 
-## 🧠 The Inspiration: The 100 Prisoners Riddle
+## The Inspiration: The 100 Prisoners Riddle
 
 **The Riddle:** 100 prisoners are given a chance to survive. There is a room with 100 boxes, each containing a random prisoner's number. Each prisoner may enter the room and open up to 50 boxes to find their own number. If *every single prisoner* finds their number, they all go free. If even one fails, they all lose. 
 
