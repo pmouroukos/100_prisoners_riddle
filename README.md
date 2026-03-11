@@ -5,6 +5,15 @@ This project uses a **Genetic Algorithm (GA)** to discover the optimal strategy 
 ## The Challenge
 The 100 prisoners riddle is a classic problem in probability theory. With a random strategy, the survival probability is practically **0%**. However, using the "Cycle-Following" strategy, the probability jumps to over **31%**.
 
+## 🧠 The Inspiration: The 100 Prisoners Riddle
+
+**The Riddle:** 100 prisoners are given a chance to survive. There is a room with 100 boxes, each containing a random prisoner's number. Each prisoner may enter the room and open up to 50 boxes to find their own number. If *every single prisoner* finds their number, they all go free. If even one fails, they all lose. 
+
+If they pick boxes at random, their chance of collective survival is microscopically small ($0.5^{100}$). However, by using a linked strategy—where the number inside one box directs them to the next box—they form mathematical "cycles." This collective strategy suddenly boosts their survival rate to over 30%!
+
+**The Takeaway for our AI:**
+Random, isolated attempts lead to failure. Just like the prisoners, our AI does not judge deceit based on a single, isolated "box" (e.g., just a twitching eyebrow). Instead, it evaluates the interconnected "cycle" of all facial movements. The AI evaluates the entire system collectively, honoring the principle that true accuracy is achieved only when all data points (the "prisoners") are given the chance to collaborate towards the final verdict.
+
 ## How the AI Learns
 The AI agent evolves through generations using:
 * **Genetic Evolution**: Crossover, Mutation, and Tournament Selection.
